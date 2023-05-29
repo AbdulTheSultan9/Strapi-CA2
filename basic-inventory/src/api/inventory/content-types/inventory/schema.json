@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventories",
+  "info": {
+    "singularName": "inventory",
+    "pluralName": "inventories",
+    "displayName": "Inventory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artwork": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    }
+  }
+}
